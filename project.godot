@@ -15,15 +15,5 @@ _global_script_class_icons={
 
 [application]
 
-config/name="The Long Way Down"
+config/name="Oh No!"
 run/main_scene="res://Scenes/Main.tscn"
-config/icon="res://icon.png"
-
-[display]
-
-window/size/width=640
-window/size/height=1136
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"

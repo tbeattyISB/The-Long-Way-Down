@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Breakable Tile.png-26abd347d0a1c8628c96e00188ffe5ce.stex"
+path="res://.import/New Piskel-5.png.png-876427d11ee9f54e0d6fd5e71b3422c3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Breakable Tile.png"
-dest_files=[ "res://.import/Breakable Tile.png-26abd347d0a1c8628c96e00188ffe5ce.stex" ]
+source_file="res://Aesthetics/New Piskel-5.png.png"
+dest_files=[ "res://.import/New Piskel-5.png.png-876427d11ee9f54e0d6fd5e71b3422c3.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

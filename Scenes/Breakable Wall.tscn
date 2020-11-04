@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Breakable Tile.png" type="Texture" id=1]
+[ext_resource path="res://Aesthetics/New Piskel-5.png.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 16, 16 )
@@ -8,11 +8,15 @@ extents = Vector2( 16, 16 )
 [node name="Breakable Wall" type="StaticBody2D" groups=[
 "breakable",
 ]]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 16, 16 )
+position = Vector2( -32, 16 )
 shape = SubResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="."]
+[node name="New Piskel-5png" type="Sprite" parent="."]
+position = Vector2( -32, 16 )
+scale = Vector2( 1, 1 )
 texture = ExtResource( 1 )
-offset = Vector2( 16, 16 )

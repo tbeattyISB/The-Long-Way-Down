@@ -16,3 +16,4 @@ func _on_Spikes_body_entered(body):
 	
 func _on_MyBody_body_entered(body):
 	queue_free()
+	

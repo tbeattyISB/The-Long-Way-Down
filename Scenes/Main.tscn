@@ -129,6 +129,7 @@ tile_data = PoolIntArray( -1245211, 3, 0, -1245210, 3, 0, -1245209, 3, 0, -12452
 [node name="Breakable" type="Node" parent="."]
 
 [node name="Breakable Wall" parent="Breakable" instance=ExtResource( 5 )]
+position = Vector2( 1, 0 )
 
 [node name="Breakable Wall7" parent="Breakable" instance=ExtResource( 5 )]
 position = Vector2( -64, 0 )
